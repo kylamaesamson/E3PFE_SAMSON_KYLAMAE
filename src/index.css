@@ -1,0 +1,161 @@
+*{  
+    /*fonts and margins of the web app*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, button
+{   
+    /*appearance of the buttons and website*/
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.App
+{   
+    /*this is the main page*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #729ed1;
+}
+
+/*Login form*/
+form .form-inner
+{   
+    /*Login form of the homepage*/
+    position: relative;
+    display: block;
+    background-color: #134699;
+    border-radius: 5px;
+    padding: 30px;
+    z-index: 2;
+}
+
+form .form-inner h2
+{   
+    /*font of heading tags in login form*/
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+form .form-inner .form-group
+{   
+    /*width of login form*/
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.form-inner .form-group label
+{   
+    /*fonts of email and password in login form*/
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+form .form-inner .form-group input
+{   
+    /*input box of login form from username and password*/
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgb(240, 241, 243);
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+form .form-inner input[type="submit"]
+{   
+    /*login button in the login form*/
+    display: inline-block;
+    background-image: linear-gradient(to right, #ffffff 50%, #437dac 50%);
+    background-size: 200%;
+    background-position: 0%;
+    font-weight: lighter;
+    color: #000000;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.logged-in button
+{   
+    /*text for login and logout button*/
+    display: inline-block;
+    position: relative;
+    bottom: 178px;
+    left: 1178px;
+    background-image: linear-gradient(to right, #ffffff 50%, #437dac 50%);
+    background-size: 200%;
+    background-position: 0%;
+    font-weight: lighter;
+    color: #191919;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+form .form-inner input[type="submit"]:hover, .logged-in button:hover
+{   
+    /*hover effects for login and logout button*/
+    background-position: 100% 0%;
+}
+
+/*after the login form*/
+.logged-in
+{   
+    /*form after login*/
+    width: 100%;
+    max-width: 1300px;
+    background: #134699;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.logged-in
+{   
+    /*form after login*/
+    height: 520px;
+}
+
+.logged-in h2
+{   
+    /*font of heading tags in logged in form*/
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 460px;
+    position: relative;
+    bottom: 340px;
+}
+
+.logged-in a
+{   
+    /*link that used to hobbies in logged-in form*/
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo
+{   
+    /*properties of logo or gif that i used*/
+    position: relative;
+    margin-top: 10px;
+    top: 30px;
+    width: 425px;
+    border-radius: 50px;
+}
